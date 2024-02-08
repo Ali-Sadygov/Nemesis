@@ -1,0 +1,159 @@
+body {
+    background-image: url("../images/bbbb.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+@media only screen and (max-width: 600px){ 
+
+    .respons {
+    display: none;
+    }
+
+}
+
+.img{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    padding: 28px 38px 28px 54px;
+}
+.reng {
+    border: solid red 1px;
+}
+
+li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+li:nth-last-child(4) {
+    border-bottom: solid black 2px;
+}
+
+li:hover {
+    border-bottom: solid black 2px ;
+    font-weight: bold;
+}
+
+.btnright {
+    color: white;
+    background: rgb(211,210,228);
+    background: linear-gradient(166deg, rgba(211,210,228,1) 0%, rgba(140,86,255,1) 35%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    padding: 5px 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+}
+
+.caruselDiv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.caruselinternal {
+    border-radius: 28px;
+    color: #b3b0b0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    background-color: #F4EBFF;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px 118px 0px 15px;
+    height: 50px;
+    font-size: 15px;
+    gap: 25px;
+    box-sizing: border-box;
+}
+
+.visited {
+    color: #9564FF;
+    background-color: white;
+    font-weight: 600;
+    height: 100%;
+    border-radius: 25px;
+    padding: 0px 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+p {
+    margin-bottom: 0px!important;
+}
+
+h1 {
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 24px 0px;
+}
+
+.maindiv {
+    padding: 35px;
+    background-color: white;
+    border-radius: 30px;
+    width: 58.5%;
+}
+
+.maininternal {
+    display: flex;
+}
+
+.maintext {
+    color: #3E3842;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 75%;
+    flex-wrap: nowrap;
+    font-size: 14px;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btndiv {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainimage {
+    width: 100%;
+}
+
+.titleDiv {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.btnn {
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 25px;
+    padding: 7px 14px;
+    color: white;
+    background: rgb(211,210,228);
+    background: linear-gradient(166deg, rgba(211,210,228,1) 0%, rgba(140,86,255,1) 35%);
+    border: none;
+}
+
+.playbutton {
+    bottom: 17px;
+    right: 17px;
+    position: fixed;
+}
+
+.play {
+    background-color: white;
+    width: 40px;
+    height: 38px;
+    border-radius: 50%;
+    padding: 7px;
+}
